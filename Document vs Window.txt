@@ -1,0 +1,75 @@
+
+Definition of Window Object.
+
+It represents the browser's window.
+All global JavaScript objects, functions, and variables automatically become members of the window object.
+Global variables are properties of the window object. 
+Global functions are methods of the window object.
+
+Definition of Document Object.
+
+The Document Object Model (DOM) is a programming interface for web documents.
+It represents the page so that programs can change the document structure, style, and content.
+The DOM represents the document as nodes and objects and programming languages can interact with the page.
+
+Major difference of document and window
+
+1) Document
+It represents any HTML document or web page that is loaded in the browser.
+
+1)Window
+It represents a browser window or frame that displays the contents of the webpage.   
+
+2)Document
+It is loaded inside the window.
+
+2)Window
+It is the very first object that is loaded in the browser.
+
+3)Document
+It is the object of window property.
+
+3)Window
+It is the object of the browser.
+
+4)Document
+
+All the tags, elements with attributes in HTML are part of the document.
+
+4)Window
+Global objects, functions, and variables of JavaScript are members of the window object.
+
+5)Document
+We can access the document from a window using the window. document
+
+5)Window
+We can access the window from the window only. i.e. window.window
+
+6)Document
+The document is part of BOM (browser object model) and dom (Document object model)
+
+6)Window
+The window is part of BOM, not DOM.
+
+7)Document
+Properties of document objects such as title, body, cookies, etc can also be accessed by a window like this window. document.title
+
+7)Window
+Properties of the window object cannot be accessed by the document object.
+
+8)Document
+	syntax:
+
+	     document.propertyname;
+
+8)Window
+	syntax:
+	     window.propertyname;
+
+9)Document
+	example:
+
+	     document.title :  will return the title of the document
+9)Window
+	example:
+	     window.innerHeight : will return the height of the content area of the browser
